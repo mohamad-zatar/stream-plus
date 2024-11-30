@@ -29,7 +29,7 @@ php artisan key:generate
 ```
 ### 5. Run Migrations
 ```bash
-php artisan key:generate
+php artisan migrate
 ```
 ### 6. install and build your NPM dependencies
 ```bash
@@ -38,7 +38,7 @@ npm install && npm run build
 
 ### 7. Start the Development Server
 ```bash
-php artisan key:generate
+php artisan serve
 ```
 
 
